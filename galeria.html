@@ -1,0 +1,31 @@
+<!doctype html><html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería · ECOLMIA VENTURES</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+    .ph{height:180px;border:1px dashed #ddd;border-radius:12px;display:grid;place-items:center;color:#777}
+    @media(max-width:900px){.gallery{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="container">
+      <h1>Galería general</h1>
+      <p class="muted">Explora imágenes representativas de nuestros alojamientos.</p>
+      <div class="gallery">
+        <div class="ph">(Foto 1)</div>
+        <div class="ph">(Foto 2)</div>
+        <div class="ph">(Foto 3)</div>
+        <div class="ph">(Foto 4)</div>
+        <div class="ph">(Foto 5)</div>
+        <div class="ph">(Foto 6)</div>
+      </div>
+      <div class="banner" style="margin-top:18px">Contenido en proceso · aquí se cargarán las fotos reales.</div>
+    </div>
+  </main>
+  <script src="scripts/header.js"></script>
+</body>
+</html>
