@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "ECOLMIA VENTURES",
+    "legal_name": "ECOLMIA VENTURES CLC S.A.S. de C.V.",
+    "whatsapp": "+525654405792",
+    "email": "ecolmia.ventures@gmail.com"
+  },
+  "policies": {
+    "checkin": "3:00 pm – 11:59 pm",
+    "checkout": "10:00 am",
+    "min_nights": 1,
+    "cancellation": "Estricta (sin reembolsos)",
+    "pets": {
+      "allowed": true,
+      "max": 2,
+      "fee": 150
+    },
+    "parking": {
+      "per_property": 1,
+      "cost": 0,
+      "note": "Sujeto a disponibilidad"
+    },
+    "id_required": true,
+    "smoking": false,
+    "parties": false
+  },
+  "properties": {
+    "BMR": {
+      "id": "BMR",
+      "name": "Departamento BMR",
+      "city": "CDMX",
+      "area": "Pedregal de Santo Domingo, Coyoacán",
+      "map_query": "Pedregal de Santo Domingo, Coyoacán, Ciudad de México",
+      "reference": "Edificio rojo con dos zaguanes negros",
+      "type": "apartment",
+      "capacity": 6,
+      "prices": {
+        "weekday": 1490,
+        "weekend": 1600
+      },
+      "rooms": {
+        "Berlin": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 449,
+            "weekend": 499
+          },
+          "images": []
+        },
+        "Madrid": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 439,
+            "weekend": 489
+          },
+          "images": []
+        },
+        "Rio": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 379,
+            "weekend": 429
+          },
+          "images": []
+        }
+      }
+    },
+    "CTR": {
+      "id": "CTR",
+      "name": "Departamento CTR",
+      "city": "CDMX",
+      "area": "Pedregal de Santo Domingo, Coyoacán",
+      "map_query": "Pedregal de Santo Domingo, Coyoacán, Ciudad de México",
+      "reference": "Edificio rojo con dos zaguanes negros",
+      "type": "apartment",
+      "capacity": 6,
+      "prices": {
+        "weekday": 1650,
+        "weekend": 1750
+      },
+      "rooms": {
+        "Cartagena": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 449,
+            "weekend": 499
+          },
+          "images": []
+        },
+        "Tokio": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 439,
+            "weekend": 489
+          },
+          "images": []
+        },
+        "Roma": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 449,
+            "weekend": 499
+          },
+          "images": []
+        }
+      }
+    },
+    "ZODIAC": {
+      "id": "ZODIAC",
+      "name": "Departamento Zodiac",
+      "city": "Acapulco",
+      "area": "Col. Farallón, Acapulco de Juárez, Guerrero",
+      "map_query": "Colonia Farallón, Acapulco de Juárez, Guerrero",
+      "reference": "",
+      "type": "apartment",
+      "capacity": 6,
+      "prices": {
+        "weekday": 1604,
+        "weekend": 1704
+      },
+      "rooms": {
+        "Geminis": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 499,
+            "weekend": 549
+          },
+          "images": []
+        },
+        "Leo": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 449,
+            "weekend": 499
+          },
+          "images": []
+        },
+        "Virgo": {
+          "capacity": 2,
+          "prices": {
+            "weekday": 449,
+            "weekend": 499
+          },
+          "images": []
+        }
+      },
+      "amenities_extra": [
+        "Aire acondicionado"
+      ]
+    }
+  }
+}

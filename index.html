@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ECOLMIA VENTURES — Selecciona ciudad</title>
+<link href="assets/styles.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="container wrap">
+    <div style="font-weight:800">ECOLMIA VENTURES</div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="city.html?city=CDMX">CDMX</a>
+      <a href="city.html?city=Acapulco">Acapulco</a>
+    </nav>
+  </div>
+</header>
+<section class="hero">
+  <div class="container">
+    <h1>¿En qué ciudad deseas hospedarte?</h1>
+    <p class="muted">Elige una ciudad para ver propiedades y reservar directo.</p>
+  </div>
+</section>
+<section>
+  <div class="container" style="display:grid;grid-template-columns:repeat(2,1fr);gap:16px">
+    <a class="card" href="city.html?city=CDMX">
+      <h2>Ciudad de México (CDMX)</h2>
+      <p class="muted">Coyoacán · cerca de UNAM</p>
+    </a>
+    <a class="card" href="city.html?city=Acapulco">
+      <h2>Acapulco</h2>
+      <p class="muted">Colonia Farallón</p>
+    </a>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <small>© <span id="year"></span> ECOLMIA VENTURES CLC S.A.S. de C.V. · WhatsApp: +52 5654405792 · ecolmia.ventures@gmail.com</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
