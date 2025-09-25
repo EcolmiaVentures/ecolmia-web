@@ -1,0 +1,58 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reseñas y experiencias - ECOLMIA VENTURES</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+.layout{display:grid;grid-template-columns:260px 1fr;gap:20px}
+.sidebar{border:1px solid #e2e8f0;border-radius:14px;padding:12px;position:sticky;top:84px;height:fit-content}
+.sidebar h3{margin:6px 0 10px}
+.sidebar a{display:block;padding:8px 10px;border-radius:8px;color:#0f172a}
+.sidebar a:hover{background:#f1f5f9}
+.grid-rev{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.rev{border:1px solid #e2e8f0;border-radius:16px;padding:14px}
+.stars{color:#f59e0b}
+.badge{display:inline-block;border:1px solid #e2e8f0;border-radius:999px;padding:2px 8px;font-size:12px;color:#64748b;margin-left:8px}
+@media(max-width:900px){.grid-rev{grid-template-columns:1fr 1fr}.layout{grid-template-columns:1fr}}
+@media(max-width:640px){.grid-rev{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="scripts/header.js"></script>
+<main class="container">
+  <section class="hero">
+    <h1 class="section-title">Reseñas y experiencias de nuestros huéspedes</h1>
+    <p class="section-sub">La opinión de nuestros huéspedes es nuestra mejor carta de presentación.</p>
+  </section>
+
+  <section class="layout">
+    <aside class="sidebar">
+      <h3>Filtrar por alojamiento</h3>
+      <a href="#todas">Todas</a>
+      <a href="#bmr">BMR</a>
+      <a href="#ctr">CTR</a>
+      <a href="#zodiac">Zodiac</a>
+    </aside>
+
+    <div>
+      <div id="todas" class="grid-rev">
+        <div class="rev">
+          <div><strong>María G.</strong> <span class="badge">Departamento BMR</span></div>
+          <div class="stars">★★★★★</div>
+          <p>Estancia muy cómoda y práctica para mis actividades en la UNAM. Todo limpio y anfitriones atentos.</p>
+        </div>
+        <div class="rev">
+          <div><strong>Carlos R.</strong> <span class="badge">Habitación Berlín (BMR)</span></div>
+          <div class="stars">★★★★☆</div>
+          <p>Buena relación calidad-precio. Zona tranquila y con servicios cercanos. Volvería sin dudarlo.</p>
+        </div>
+        <div class="rev">
+          <div><strong>Ana L.</strong> <span class="badge">Departamento Zodiac</span></div>
+          <div class="stars">★★★★★</div>
+          <p>Excelente ubicación en Acapulco. Aire acondicionado y descanso perfecto. Muy recomendable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="scripts/footer.js"></script>
+</body></html>

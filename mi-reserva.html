@@ -1,0 +1,39 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mi reserva - ECOLMIA VENTURES</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+.form{border:1px solid #e2e8f0;border-radius:16px;padding:16px;margin:16px 0}
+.form label{display:block;margin:10px 0 6px}
+.form input{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #e2e8f0}
+.form button{margin-top:12px;background:#0f766e;color:#fff;border:none;border-radius:10px;padding:10px 14px;cursor:pointer}
+.result{border:1px solid #e2e8f0;border-radius:16px;padding:16px;display:none}
+.note{color:#64748b}
+</style>
+</head>
+<body>
+<script src="scripts/header.js"></script>
+<main class="container">
+  <section class="hero">
+    <h1 class="section-title">Mi reserva</h1>
+    <p class="section-sub">Consulta tu reservación con tu correo y número de confirmación.</p>
+  </section>
+
+  <section class="form">
+    <form onsubmit="event.preventDefault(); document.querySelector('.result').style.display='block';">
+      <label>Correo electrónico</label><input type="email" required placeholder="tucorreo@dominio.com">
+      <label>Número de reserva</label><input required placeholder="Código de confirmación">
+      <button type="submit">Buscar mi reserva</button>
+    </form>
+  </section>
+
+  <section class="result">
+    <h3>Resultado (ejemplo)</h3>
+    <p><strong>Hu&eacute;sped:</strong> Nombre Apellido<br>
+       <strong>Alojamiento:</strong> Departamento BMR – Habitación Berlín<br>
+       <strong>Fechas:</strong> 12/10/2025 – 15/10/2025</p>
+    <p class="note">Política de cancelación: Estricta (sin reembolsos).</p>
+  </section>
+</main>
+<script src="scripts/footer.js"></script>
+</body></html>

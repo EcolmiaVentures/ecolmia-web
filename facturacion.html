@@ -1,0 +1,78 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Facturación electrónica (CFDI) - ECOLMIA VENTURES</title>
+<link rel="stylesheet" href="assets/styles.css">
+<style>
+.form{border:1px solid #e2e8f0;border-radius:16px;padding:16px;margin:16px 0}
+.form label{display:block;margin:10px 0 6px}
+.form input, .form select{width:100%;padding:10px 12px;border-radius:10px;border:1px solid #e2e8f0}
+.form button{margin-top:12px;background:#0f766e;color:#fff;border:none;border-radius:10px;padding:10px 14px;cursor:pointer}
+.section{margin:20px 0}
+</style>
+</head>
+<body>
+<script src="scripts/header.js"></script>
+<main class="container">
+  <section class="hero">
+    <h1 class="section-title">Facturación electrónica (CFDI)</h1>
+    <p class="section-sub">Solicita tu factura de manera rápida y sencilla. Al enviar el formulario, recibiremos tu solicitud por correo.</p>
+  </section>
+
+  <section class="form">
+    <form onsubmit="event.preventDefault(); alert('Gracias. Tu solicitud fue enviada.');">
+      <label>RFC</label><input required placeholder="XAXX010101000">
+      <label>Razón social / Nombre</label><input required placeholder="Tu razón social">
+      <label>Domicilio fiscal</label><input required placeholder="Calle, número, colonia, ciudad, CP">
+      <label>Uso de CFDI</label>
+      <select required>
+        <option value="">Selecciona</option>
+        <option>G01 - Adquisición de mercancías</option>
+        <option>G03 - Gastos en general</option>
+        <option>P01 - Por definir</option>
+      </select>
+      <label>Correo electrónico</label><input type="email" required placeholder="tucorreo@dominio.com">
+      <label>Número de reserva</label><input required placeholder="Código de confirmación">
+      <button type="submit">Solicitar factura</button>
+    </form>
+  </section>
+
+  <section class="section">
+    <h2>2. Plazos de facturación</h2>
+    <ul>
+      <li>La factura debe ser solicitada dentro del mismo mes en que se realizó el pago de la reserva.</li>
+      <li>Después del cierre del mes, no será posible emitir facturas correspondientes a pagos previos, de acuerdo con la normativa del SAT.</li>
+      <li>El plazo de entrega de la factura será de hasta 72 horas hábiles después de recibida la solicitud completa.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>3. Procedimiento</h2>
+    <ol>
+      <li>Ingrese a esta sección y complete el formulario de facturación con todos los datos requeridos.</li>
+      <li>El sistema enviará automáticamente la solicitud al área administrativa de ECOLMIA VENTURES.</li>
+      <li>Una vez validada, se emitirá la factura electrónica (CFDI) y será enviada al correo proporcionado.</li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>4. Restricciones</h2>
+    <ul>
+      <li>Solo se emitirán facturas por reservas y pagos realizados directamente en la página web de ECOLMIA VENTURES.</li>
+      <li>Reservas realizadas a través de plataformas externas como Airbnb o Booking.com no son facturables mediante este sistema, ya que el cobro se procesa directamente por esas plataformas.</li>
+      <li>No se emitirán facturas por anticipos o pagos parciales; únicamente por el monto total de la reserva confirmada.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>6. Contacto para dudas de facturación</h2>
+    <p>📧 <a href="mailto:ecolmia.ventures@gmail.com">ecolmia.ventures@gmail.com</a><br>
+       📞 WhatsApp: <a href="https://wa.me/525654405792" target="_blank">+52 565 440 5792</a></p>
+  </section>
+
+  <section class="section">
+    <h2>7. Aceptación</h2>
+    <p>Al solicitar factura, el huésped reconoce haber leído y aceptado las condiciones aquí descritas, así como los Términos y Condiciones publicados en este sitio web.</p>
+  </section>
+</main>
+<script src="scripts/footer.js"></script>
+</body></html>
