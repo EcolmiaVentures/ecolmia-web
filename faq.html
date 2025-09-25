@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FAQ | ECOLMIA VENTURES</title>
+  <meta name="description" content="Preguntas frecuentes sobre reservas, pagos, políticas, estancia y servicios en BMR, CTR y Zodiac." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/faq.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/faq.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container faq" role="main">
+    <header class="faq-head">
+      <h1>Preguntas Frecuentes</h1>
+      <p class="muted">Encuentra respuestas rápidas sobre tu reserva y estancia.</p>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Categorías">
+        <nav class="side-nav">
+          <a href="#reserva">Reserva</a>
+          <a href="#pagos">Pagos</a>
+          <a href="#estancia">Durante tu estancia</a>
+          <a href="#politicas">Políticas</a>
+          <a href="#servicios">Servicios y amenidades</a>
+          <a href="#varia">Variaciones por alojamiento</a>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <section id="reserva" class="card section">
+          <h2>Reserva</h2>
+          <div class="accordion" data-category="reserva"></div>
+        </section>
+
+        <section id="pagos" class="card section">
+          <h2>Pagos</h2>
+          <div class="accordion" data-category="pagos"></div>
+        </section>
+
+        <section id="estancia" class="card section">
+          <h2>Durante tu estancia</h2>
+          <div class="accordion" data-category="estancia"></div>
+        </section>
+
+        <section id="politicas" class="card section">
+          <h2>Políticas</h2>
+          <div class="accordion" data-category="politicas"></div>
+        </section>
+
+        <section id="servicios" class="card section">
+          <h2>Servicios y amenidades</h2>
+          <div class="accordion" data-category="servicios"></div>
+        </section>
+
+        <section id="varia" class="card section">
+          <h2>Variaciones por alojamiento</h2>
+          <div class="accordion" data-category="varia"></div>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>

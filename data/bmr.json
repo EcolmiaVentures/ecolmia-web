@@ -1,0 +1,126 @@
+{
+  "id": "BMR",
+  "short": "BMR",
+  "title": "Departamento BMR — Planta baja (3 habitaciones)",
+  "location": "Pedregal de Santo Domingo, Coyoacán · CDMX (referencia general)",
+  "prices": {
+    "weekday": 1490,
+    "weekend": 1600
+  },
+  "photos": {
+    "areas": [
+      "img/bmr/areas.jpg",
+      "img/bmr/areas.jpg",
+      "img/bmr/areas.jpg",
+      "img/bmr/areas.jpg",
+      "img/bmr/areas.jpg",
+      "img/bmr/areas.jpg"
+    ],
+    "room1": [
+      "img/bmr/berlin.jpg",
+      "img/bmr/berlin.jpg",
+      "img/bmr/berlin.jpg",
+      "img/bmr/berlin.jpg",
+      "img/bmr/berlin.jpg",
+      "img/bmr/berlin.jpg"
+    ],
+    "room2": [
+      "img/bmr/madrid.jpg",
+      "img/bmr/madrid.jpg",
+      "img/bmr/madrid.jpg",
+      "img/bmr/madrid.jpg",
+      "img/bmr/madrid.jpg",
+      "img/bmr/madrid.jpg"
+    ],
+    "room3": [
+      "img/bmr/rio.jpg",
+      "img/bmr/rio.jpg",
+      "img/bmr/rio.jpg",
+      "img/bmr/rio.jpg",
+      "img/bmr/rio.jpg",
+      "img/bmr/rio.jpg"
+    ]
+  },
+  "about": {
+    "alojamiento": "Departamento compartido en planta baja con 3 habitaciones (Berlín, Madrid y Río), áreas comunes completas y ambiente tranquilo y respetuoso. Acceso sin escaleras.",
+    "acceso": [
+      "Tu habitación privada + cocina equipada + sala + comedor.",
+      "Baño completo y medio baño compartidos.",
+      "Por privacidad: no acceder a otras habitaciones ni a zonas restringidas del edificio."
+    ],
+    "estancia": "Disponibles por chat/WhatsApp durante la estancia. Datos se comparten tras la reserva y 1 hora antes del check-in.",
+    "destacados": [
+      "Check-in 15:00–23:59 · Check-out 10:00",
+      "Estacionamiento: 1 lugar por departamento (solicitar al reservar)",
+      "Mascotas: máx. 2 · MXN $150 por estancia",
+      "Limpieza diaria en áreas comunes; limpieza de habitación al inicio"
+    ]
+  },
+  "amenities": {
+    "Baño": [
+      "Secadora de pelo",
+      "Agua caliente"
+    ],
+    "Habitación y lavandería": [
+      "Ganchos",
+      "Ropa de cama",
+      "Cortinas opacas",
+      "Plancha",
+      "Clóset"
+    ],
+    "Entretenimiento": [
+      "Televisión HD",
+      "Fire TV / Roku"
+    ],
+    "Privacidad y seguridad": [
+      "Cerradura en puerta de la habitación",
+      "Cámaras en áreas comunes",
+      "Detector de humo",
+      "Detector de CO",
+      "Extintor",
+      "Botiquín"
+    ],
+    "Internet y oficina": [
+      "Wi‑Fi",
+      "Espacio para trabajar (habitación con puerta)"
+    ],
+    "Cocina y comedor": [
+      "Cocina equipada",
+      "Refrigerador",
+      "Microondas",
+      "Básicos de cocina",
+      "Platos y cubiertos",
+      "Licuadora",
+      "Estufa y horno",
+      "Jarra eléctrica",
+      "Tostador",
+      "Mesa de comedor"
+    ],
+    "Estacionamiento e instalaciones": [
+      "Estacionamiento gratuito en sitio (1 lugar)",
+      "Alojamiento de un solo piso",
+      "Sin escaleras"
+    ],
+    "Servicios": [
+      "Se admiten mascotas",
+      "Equipaje permitido",
+      "Estancias largas (28+ días)",
+      "Limpieza disponible (costo adicional)"
+    ],
+    "No incluidos": [
+      "Lavadora",
+      "Secadora",
+      "Aire acondicionado",
+      "Elementos básicos",
+      "Calefacción"
+    ]
+  },
+  "rules": [
+    "No fumar ni consumir drogas dentro del edificio.",
+    "Evitar ruidos en áreas comunes (estacionamiento, escaleras, pasillos).",
+    "Costo por pérdida de llaves: MXN $250 por juego.",
+    "No colocar el seguro interno de la cerradura para no bloquear a otros huéspedes.",
+    "Basura: usar botes del departamento; contenedores verdes en planta baja si se acumula.",
+    "Insumos básicos iniciales (papel higiénico, jabón trastes); reabastecimiento por cuenta del huésped."
+  ]
+}

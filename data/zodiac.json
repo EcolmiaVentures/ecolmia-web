@@ -1,0 +1,122 @@
+{
+  "id": "ZODIAC",
+  "short": "ZODIAC",
+  "title": "Departamento ZODIAC — Acapulco (3 habitaciones)",
+  "location": "Farallón, Acapulco · Cerca de la Diana Cazadora (referencia general)",
+  "prices": {
+    "weekday": 1604,
+    "weekend": 1704
+  },
+  "photos": {
+    "areas": [
+      "img/zodiac/areas.jpg",
+      "img/zodiac/areas.jpg",
+      "img/zodiac/areas.jpg",
+      "img/zodiac/areas.jpg",
+      "img/zodiac/areas.jpg",
+      "img/zodiac/areas.jpg"
+    ],
+    "room1": [
+      "img/zodiac/geminis.jpg",
+      "img/zodiac/geminis.jpg",
+      "img/zodiac/geminis.jpg",
+      "img/zodiac/geminis.jpg",
+      "img/zodiac/geminis.jpg",
+      "img/zodiac/geminis.jpg"
+    ],
+    "room2": [
+      "img/zodiac/leo.jpg",
+      "img/zodiac/leo.jpg",
+      "img/zodiac/leo.jpg",
+      "img/zodiac/leo.jpg",
+      "img/zodiac/leo.jpg",
+      "img/zodiac/leo.jpg"
+    ],
+    "room3": [
+      "img/zodiac/virgo.jpg",
+      "img/zodiac/virgo.jpg",
+      "img/zodiac/virgo.jpg",
+      "img/zodiac/virgo.jpg",
+      "img/zodiac/virgo.jpg",
+      "img/zodiac/virgo.jpg"
+    ]
+  },
+  "about": {
+    "alojamiento": "Departamento en Acapulco con 3 habitaciones (Géminis, Leo y Virgo). Único con aire acondicionado en las habitaciones. Áreas comunes cómodas y ambiente relajado cerca de zonas de interés.",
+    "acceso": [
+      "Tu habitación privada + cocina equipada + sala + comedor.",
+      "Baño(s) compartidos de acuerdo con el área asignada.",
+      "Por privacidad: no acceder a otras habitaciones ni a zonas restringidas del edificio."
+    ],
+    "estancia": "Disponibles por chat/WhatsApp durante la estancia. Los datos se comparten tras la reserva y 1 hora antes del check-in.",
+    "destacados": [
+      "Check-in 15:00–23:59 · Check-out 10:00",
+      "Estacionamiento: 1 lugar por departamento (solicitar al reservar)",
+      "Mascotas: máx. 2 · MXN $150 por estancia",
+      "Aire acondicionado en Zodiac (habitaciones)",
+      "Limpieza diaria en áreas comunes; limpieza de habitación al inicio"
+    ]
+  },
+  "amenities": {
+    "Baño": [
+      "Secadora de pelo",
+      "Agua caliente"
+    ],
+    "Habitación y lavandería": [
+      "Ganchos",
+      "Ropa de cama",
+      "Cortinas opacas",
+      "Plancha",
+      "Clóset"
+    ],
+    "Entretenimiento": [
+      "Televisión HD",
+      "Fire TV / Roku"
+    ],
+    "Privacidad y seguridad": [
+      "Cerradura en puerta de la habitación",
+      "Cámaras en áreas comunes",
+      "Detector de humo",
+      "Detector de CO",
+      "Extintor",
+      "Botiquín"
+    ],
+    "Internet y oficina": [
+      "Wi‑Fi",
+      "Espacio para trabajar (habitación con puerta)"
+    ],
+    "Cocina y comedor": [
+      "Cocina equipada",
+      "Refrigerador",
+      "Microondas",
+      "Básicos de cocina",
+      "Platos y cubiertos",
+      "Licuadora",
+      "Estufa y horno",
+      "Jarra eléctrica",
+      "Tostador",
+      "Mesa de comedor"
+    ],
+    "Estacionamiento e instalaciones": [
+      "Estacionamiento gratuito en sitio (1 lugar)",
+      "Acceso por escaleras"
+    ],
+    "Servicios": [
+      "Se admiten mascotas",
+      "Equipaje permitido",
+      "Estancias largas (28+ días)",
+      "Limpieza disponible (costo adicional)"
+    ],
+    "Incluidos en Zodiac": [
+      "Aire acondicionado (habitaciones)"
+    ]
+  },
+  "rules": [
+    "No fumar ni consumir drogas dentro del edificio.",
+    "Respetar horarios de descanso y convivencia en áreas comunes.",
+    "Costo por pérdida de llaves: MXN $250 por juego.",
+    "No bloquear el acceso interno con seguros de la cerradura.",
+    "Disponer la basura en los botes del departamento; si se acumula, usar contenedores designados.",
+    "Insumos básicos iniciales; reabastecimiento posterior a cargo del huésped."
+  ]
+}

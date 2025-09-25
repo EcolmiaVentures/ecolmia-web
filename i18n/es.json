@@ -1,0 +1,27 @@
+{
+  "lang": "es",
+  "menu": {
+    "inicio": "Inicio",
+    "alojamientos": "Alojamientos",
+    "ofertas": "Ofertas",
+    "resenas": "Reseñas",
+    "guia": "Guía",
+    "faq": "FAQ",
+    "contacto": "Contacto",
+    "facturacion": "Facturación",
+    "mi_reserva": "Mi reserva",
+    "nosotros": "Nosotros",
+    "quienes": "Quiénes somos",
+    "cancelacion": "Política de cancelación",
+    "privacidad": "Acuerdo de privacidad",
+    "terminos": "Términos y condiciones",
+    "reservar": "Reserva ahora"
+  },
+  "footer": {
+    "ubics": "Ubicaciones de referencia",
+    "cdmx": "Coyoacán (CDMX)",
+    "aca": "Farallón (Acapulco)",
+    "contacto": "Contacto",
+    "copy": "© {year} ECOLMIA VENTURES CLC S.A.S. de C.V."
+  }
+}

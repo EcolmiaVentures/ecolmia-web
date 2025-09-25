@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Propiedad | ECOLMIA VENTURES</title>
+  <meta name="description" content="Detalles del alojamiento: fotos, servicios, reglas y mapa." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/property.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/property.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container property" role="main">
+    <div class="property-header">
+      <div>
+        <h1 id="prop-title">Alojamiento</h1>
+        <p id="prop-location" class="muted">Ubicación de referencia</p>
+      </div>
+      <div class="price-cta">
+        <div id="prop-price" class="price-tag"></div>
+        <a class="btn-primary" href="mi-reserva.html">Reserva ahora</a>
+      </div>
+    </div>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <nav class="side-nav" aria-label="Navegación de secciones">
+          <a href="#fotos">Fotos</a>
+          <a href="#acerca">Acerca de este lugar</a>
+          <a href="#amenidades">Amenidades</a>
+          <a href="#reglas">Reglas</a>
+          <a href="#mapa">Mapa</a>
+        </nav>
+        <div class="card tips">
+          <h4>Notas</h4>
+          <ul>
+            <li>Estacionamiento: 1 lugar por departamento (solicitar al reservar).</li>
+            <li>Mascotas: Máximo 2 · MXN $150 por estancia.</li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="content">
+        <!-- Fotos -->
+        <section id="fotos" class="card section">
+          <h2>Fotos</h2>
+          <div class="tabs">
+            <button class="tab active" data-tab="areas">Áreas comunes</button>
+            <button class="tab" data-tab="room1">Habitación 1</button>
+            <button class="tab" data-tab="room2">Habitación 2</button>
+            <button class="tab" data-tab="room3">Habitación 3</button>
+          </div>
+          <div class="gallery" id="gallery"></div>
+        </section>
+
+        <!-- Acerca -->
+        <section id="acerca" class="card section">
+          <h2>Acerca de este lugar</h2>
+
+          <article>
+            <h3>El alojamiento</h3>
+            <p id="desc-alojamiento"></p>
+          </article>
+
+          <article>
+            <h3>Acceso para huéspedes</h3>
+            <ul id="desc-acceso"></ul>
+          </article>
+
+          <article>
+            <h3>Durante tu estancia</h3>
+            <p id="desc-estancia"></p>
+          </article>
+
+          <article>
+            <h3>Aspectos destacables</h3>
+            <ul id="desc-destacados"></ul>
+          </article>
+        </section>
+
+        <!-- Amenidades -->
+        <section id="amenidades" class="card section">
+          <h2>Amenidades</h2>
+          <div class="amen-grid" id="amenidades-grid"></div>
+        </section>
+
+        <!-- Reglas -->
+        <section id="reglas" class="card section">
+          <h2>Reglas del alojamiento</h2>
+          <ul class="rules" id="rules-list"></ul>
+          <div class="disclaimer">
+            <strong>Cancelación:</strong> estricta sin reembolsos. Revise fechas antes de reservar.
+          </div>
+        </section>
+
+        <!-- Mapa -->
+        <section id="mapa" class="card section">
+          <h2>Mapa de referencia</h2>
+          <div class="map-embed">
+            <!-- Placeholder (Leaflet/OSM se integrará después) -->
+            <iframe id="map-frame" title="Mapa de referencia" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>

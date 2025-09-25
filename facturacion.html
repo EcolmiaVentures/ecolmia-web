@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Facturación | ECOLMIA VENTURES</title>
+  <meta name="description" content="Solicita tu CFDI llenando el formulario de facturación. Requisitos, plazos y restricciones." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/factura.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/factura.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container factura" role="main">
+    <header class="head">
+      <h1>Facturación</h1>
+      <p class="muted">Complete el formulario. Recibirá la factura por correo en un plazo máximo de 72 horas hábiles.</p>
+    </header>
+
+    <section class="card form-card">
+      <h2>Formulario de facturación</h2>
+      <form id="bill-form" novalidate>
+        <!-- Datos del contribuyente -->
+        <fieldset class="block">
+          <legend>1) Datos del contribuyente</legend>
+          <div class="grid two">
+            <div class="field">
+              <label for="rfc">RFC</label>
+              <input id="rfc" name="rfc" type="text" placeholder="ABC1234567X0" required />
+            </div>
+            <div class="field">
+              <label for="razon">Razón social</label>
+              <input id="razon" name="razon" type="text" placeholder="Nombre o razón social" required />
+            </div>
+          </div>
+          <div class="grid two">
+            <div class="field">
+              <label for="uso">Uso de CFDI</label>
+              <select id="uso" name="uso" required>
+                <option value="">Seleccione…</option>
+                <option value="G03">G03 - Gastos en general</option>
+                <option value="D01">D01 - Honorarios médicos</option>
+                <option value="P01">P01 - Por definir</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="email">Correo para envío</label>
+              <input id="email" name="email" type="email" placeholder="facturas@empresa.com" required />
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Domicilio fiscal -->
+        <fieldset class="block">
+          <legend>2) Domicilio fiscal</legend>
+          <div class="grid two">
+            <div class="field">
+              <label for="calle">Calle</label>
+              <input id="calle" name="calle" type="text" placeholder="Calle" required />
+            </div>
+            <div class="field">
+              <label for="ext">No. exterior</label>
+              <input id="ext" name="ext" type="text" placeholder="Ej. 155" required />
+            </div>
+          </div>
+          <div class="grid two">
+            <div class="field">
+              <label for="int">No. interior</label>
+              <input id="int" name="int" type="text" placeholder="(Opcional)" />
+            </div>
+            <div class="field">
+              <label for="colonia">Colonia</label>
+              <input id="colonia" name="colonia" type="text" placeholder="Colonia" required />
+            </div>
+          </div>
+          <div class="grid three">
+            <div class="field">
+              <label for="municipio">Municipio/Alcaldía</label>
+              <input id="municipio" name="municipio" type="text" placeholder="Municipio o alcaldía" required />
+            </div>
+            <div class="field">
+              <label for="estado">Estado</label>
+              <input id="estado" name="estado" type="text" placeholder="Estado" required />
+            </div>
+            <div class="field">
+              <label for="cp">Código postal</label>
+              <input id="cp" name="cp" type="text" placeholder="00000" required />
+            </div>
+          </div>
+          <div class="grid one">
+            <div class="field">
+              <label for="pais">País</label>
+              <input id="pais" name="pais" type="text" placeholder="México" required />
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Datos de la reserva -->
+        <fieldset class="block">
+          <legend>3) Datos de la reserva (web)</legend>
+          <div class="grid three">
+            <div class="field">
+              <label for="folio">Folio o ID de reserva</label>
+              <input id="folio" name="folio" type="text" placeholder="ID de la reserva" required />
+            </div>
+            <div class="field">
+              <label for="alojamiento">Alojamiento</label>
+              <select id="alojamiento" name="alojamiento" required>
+                <option value="">Seleccione…</option>
+                <option value="BMR">BMR (CDMX)</option>
+                <option value="CTR">CTR (CDMX)</option>
+                <option value="ZODIAC">Zodiac (Acapulco)</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="importe">Importe pagado (MXN)</label>
+              <input id="importe" name="importe" type="number" step="0.01" min="0" placeholder="0.00" required />
+            </div>
+          </div>
+          <div class="grid two">
+            <div class="field">
+              <label for="checkin">Fecha de check‑in</label>
+              <input id="checkin" name="checkin" type="date" required />
+            </div>
+            <div class="field">
+              <label for="checkout">Fecha de check‑out</label>
+              <input id="checkout" name="checkout" type="date" required />
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Confirmación -->
+        <fieldset class="block">
+          <legend>4) Confirmación</legend>
+          <label class="checkbox">
+            <input id="acepto" type="checkbox" required />
+            <span>Confirmo que la información es correcta y acepto los <a href="terminos.html" target="_blank">Términos</a> y el <a href="privacidad.html" target="_blank">Acuerdo de privacidad</a>.</span>
+          </label>
+          <div class="actions">
+            <button class="btn-primary" type="submit">Enviar solicitud</button>
+            <p id="form-msg" class="muted" role="status" aria-live="polite"></p>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Texto normativo debajo del formulario -->
+    <section class="card policy">
+      <h2>Condiciones de facturación</h2>
+
+      <h3>Plazos de facturación</h3>
+      <ul>
+        <li>La factura debe solicitarse <strong>dentro del mismo mes</strong> en que se realizó el pago de la reserva.</li>
+        <li>Después del cierre del mes, <strong>no será posible</strong> emitir facturas correspondientes a pagos previos (lineamientos SAT).</li>
+        <li>Plazo de entrega de la factura: <strong>hasta 72 horas hábiles</strong> después de recibida la solicitud completa.</li>
+      </ul>
+
+      <h3>Procedimiento</h3>
+      <ol>
+        <li>Complete el formulario de esta página con todos los datos requeridos.</li>
+        <li>El sistema enviará automáticamente la solicitud al área administrativa de ECOLMIA VENTURES.</li>
+        <li>Tras validación, emitiremos el CFDI y lo enviaremos al correo proporcionado.</li>
+      </ol>
+
+      <h3>Restricciones</h3>
+      <ul>
+        <li>Solo se emiten facturas por <strong>reservas pagadas directamente en este sitio</strong>.</li>
+        <li>Reservas vía <strong>Airbnb o Booking.com</strong> no son facturables aquí (el cobro lo procesa la plataforma).</li>
+        <li>No se emiten facturas por anticipos o pagos parciales; únicamente por el <strong>monto total</strong> de la reserva confirmada.</li>
+      </ul>
+
+      <h3>Contacto para dudas</h3>
+      <p>📧 <a href="mailto:ecolmia.ventures@gmail.com">ecolmia.ventures@gmail.com</a> · 📱 WhatsApp: <a href="https://wa.me/525654405792" target="_blank" rel="noopener">+52 565 440 5792</a></p>
+
+      <h3>Aceptación</h3>
+      <p>Al solicitar factura, el huésped reconoce haber leído y aceptado estas condiciones, así como los <a href="terminos.html">Términos y Condiciones</a> del sitio.</p>
+    </section>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>

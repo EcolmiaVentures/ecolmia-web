@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ofertas | ECOLMIA VENTURES</title>
+  <meta name="description" content="Ofertas exclusivas y paquetes: descuentos por estancia larga, compra anticipada y beneficios especiales." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/ofertas.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/ofertas.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container ofertas" role="main">
+    <section class="intro">
+      <h1 class="page-title">Ofertas Exclusivas y Paquetes</h1>
+      <p class="page-sub">¿Buscas ahorrar en tu próxima estancia? Diseñamos promociones para que disfrutes más tiempo por menos, con beneficios directos al reservar aquí.</p>
+      <div class="lead-text card">
+        <p>Aprovecha las promociones que preparamos para tus escapadas, vacaciones o viajes de trabajo. Solo elige tus fechas y aplica el plan que más te convenga. <strong>Estas ofertas están disponibles exclusivamente en este sitio.</strong></p>
+      </div>
+    </section>
+
+    <section id="offers-grid" class="cards-grid"></section>
+
+    <section class="subscribe card">
+      <h2>Recibe promociones por correo</h2>
+      <p class="muted">Te enviaremos ofertas y paquetes especiales. Sin spam.</p>
+      <form id="promo-form" class="inline-form" novalidate>
+        <label class="sr-only" for="promo-email">Correo electrónico</label>
+        <input id="promo-email" type="email" placeholder="tu@correo.com" aria-label="Correo electrónico" required />
+        <button class="btn-primary" type="submit">Suscribirme</button>
+      </form>
+      <p id="promo-msg" class="msg" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>

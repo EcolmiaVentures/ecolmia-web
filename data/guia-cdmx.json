@@ -1,0 +1,57 @@
+{
+  "atracciones": [
+    {
+      "name": "Centro de Coyoacán",
+      "desc": "Plaza Hidalgo, Jardín Centenario y ambiente cultural.",
+      "image": "img/guia/cdmx/coyo.jpg"
+    },
+    {
+      "name": "UNAM — CU",
+      "desc": "Murales, MUAC, Universum y espacios naturales.",
+      "image": "img/guia/cdmx/unam.jpg"
+    },
+    {
+      "name": "Museo Frida Kahlo",
+      "desc": "La Casa Azul, imprescindible para amantes del arte.",
+      "image": "img/guia/cdmx/frida.jpg"
+    }
+  ],
+  "comida": [
+    {
+      "name": "Mercado de Coyoacán",
+      "type": "Antojitos y jugos",
+      "desc": "Clásicos locales a buen precio."
+    },
+    {
+      "name": "Avenida Miguel Ángel de Quevedo",
+      "type": "Cafés y restaurantes",
+      "desc": "Opciones variadas para todos los gustos."
+    },
+    {
+      "name": "Plaza Oasis",
+      "type": "Centro comercial",
+      "desc": "Compras y comida en un solo lugar."
+    },
+    {
+      "name": "Churros y helados artesanales",
+      "type": "Postres",
+      "desc": "Ideal para caminar por la plaza."
+    }
+  ],
+  "transporte": [
+    "Metro Línea 3 (Coyoacán/Universidad) — conexión hacia el centro.",
+    "Metrobús Línea 1 y rutas de micro hacia puntos principales.",
+    "Apps de taxi y bici pública disponibles en la zona."
+  ],
+  "servicios": [
+    "Farmacias y Oxxo/7-Eleven a pocas cuadras.",
+    "Cajeros automáticos y bancos sobre avenidas principales.",
+    "Lavanderías y papelerías de barrio cercanas."
+  ],
+  "consejos": [
+    "Evita horas pico de tránsito si te mueves en auto.",
+    "Mantén tus pertenencias seguras en sitios concurridos.",
+    "Consulta horarios de museos y compra boletos con antelación."
+  ],
+  "mapa_iframe": "https://www.openstreetmap.org/export/embed.html?bbox=-99.202,19.308,-99.109,19.371&layer=mapnik&marker=19.35,-99.15"
+}

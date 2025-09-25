@@ -1,0 +1,90 @@
+{
+  "reserva": [
+    {
+      "q": "¿Cuál es el horario de check‑in y check‑out?",
+      "a": "Check‑in de <strong>15:00 a 23:59</strong> y check‑out máximo a las <strong>10:00</strong>. Horarios distintos deben acordarse con anticipación (sujeto a disponibilidad)."
+    },
+    {
+      "q": "¿Hay un mínimo de noches para reservar?",
+      "a": "<strong>No</strong>, no exigimos estancia mínima. Puedes reservar desde una noche."
+    },
+    {
+      "q": "¿Cómo se entrega la llave? ¿Hay alguien que recibe o es caja de seguridad?",
+      "a": "Puede variar entre <strong>recepción en persona</strong> y <strong>entrada autónoma</strong>. Los detalles se confirman en tu correo y WhatsApp antes del check‑in."
+    },
+    {
+      "q": "¿Puedo reservar y pagar directamente en la web?",
+      "a": "Sí. Nuestra web permite reservar y pagar directamente. También puedes reservar desde Airbnb o Booking si lo prefieres."
+    }
+  ],
+  "pagos": [
+    {
+      "q": "¿El precio mostrado incluye impuestos y comisiones?",
+      "a": "Sí. El precio que ves al reservar en la web es el <strong>precio final</strong>."
+    },
+    {
+      "q": "¿Qué métodos de pago aceptan?",
+      "a": "Transferencia bancaria y, próximamente, Mercado Pago y PayPal. <em>Efectivo</em> solo para reservas del mismo día."
+    },
+    {
+      "q": "¿Se puede pagar con diferentes monedas?",
+      "a": "Los precios se muestran en MXN. La pasarela de pago (cuando esté activa) hará la conversión si paga con otra moneda."
+    }
+  ],
+  "estancia": [
+    {
+      "q": "¿Cómo se maneja la limpieza?",
+      "a": "Realizamos <strong>limpieza diaria en áreas comunes</strong> y limpieza inicial en la habitación. Servicio adicional bajo solicitud y costo."
+    },
+    {
+      "q": "¿Hay Wi‑Fi? ¿Cuál es la velocidad?",
+      "a": "Sí, todos los alojamientos cuentan con Wi‑Fi. La velocidad puede variar; mediremos y publicaremos el dato exacto por propiedad."
+    },
+    {
+      "q": "¿Se permite fumar dentro?",
+      "a": "<strong>No</strong>. Está prohibido fumar o consumir drogas dentro del edificio."
+    }
+  ],
+  "politicas": [
+    {
+      "q": "¿Cómo se manejan las cancelaciones y reembolsos?",
+      "a": "Política <strong>estricta</strong> sin reembolsos. Te pedimos verificar con cuidado tus fechas antes de confirmar."
+    },
+    {
+      "q": "¿Se permiten mascotas?",
+      "a": "Sí. Máximo <strong>2 mascotas</strong> por reserva. <strong>MXN $150</strong> por estancia (cargo único)."
+    },
+    {
+      "q": "¿Hay reglas de convivencia?",
+      "a": "Evitar ruidos en áreas comunes; respetar el descanso de los demás; no bloquear cerraduras internas; seguir indicaciones de seguridad."
+    }
+  ],
+  "servicios": [
+    {
+      "q": "¿Hay estacionamiento disponible?",
+      "a": "Sí, <strong>1 lugar por departamento</strong>. Debe solicitarse al momento de reservar (sujeto a disponibilidad por fechas)."
+    },
+    {
+      "q": "¿Los alojamientos son adecuados para niños y grupos grandes?",
+      "a": "Sí, aptos para niños y grupos <strong>hasta la ocupación máxima</strong> de cada alojamiento."
+    },
+    {
+      "q": "¿Qué servicios incluyen?",
+      "a": "Toallas, ropa de cama y utensilios de cocina. Verifica la sección “Amenidades” de cada propiedad para la lista completa."
+    }
+  ],
+  "varia": [
+    {
+      "q": "Diferencias por alojamiento",
+      "a": "<ul><li><strong>BMR</strong> — Planta baja. Habitaciones: Berlín, Madrid, Río.</li><li><strong>CTR</strong> — Primer piso. Habitaciones: Cartagena, Tokio, Roma.</li><li><strong>Zodiac</strong> — Acapulco. Habitaciones: Géminis, Leo, Virgo. <strong>Con aire acondicionado en habitaciones</strong>.</li></ul>"
+    },
+    {
+      "q": "Mascotas y estacionamiento",
+      "a": "<ul><li>Mascotas: máx. 2; MXN $150 por estancia.</li><li>Estacionamiento: 1 lugar por departamento; debe reservarse durante la compra. Disponibilidad sujeta a fechas y ocupación.</li></ul>"
+    },
+    {
+      "q": "Disponibilidad de habitaciones",
+      "a": "Cada departamento se puede reservar completo o por habitación (según propiedad). Revisa el calendario y elige tus fechas; la web mostrará disponibilidad consolidada cuando activemos la sincronización iCal."
+    }
+  ]
+}

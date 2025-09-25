@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto | ECOLMIA VENTURES</title>
+  <meta name="description" content="Contáctanos por WhatsApp, correo o formulario. Ubicaciones de referencia en CDMX (Coyoacán) y Acapulco (Farallón/Diana Cazadora)." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/contacto.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/contacto.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container contact" role="main">
+    <header class="contact-head">
+      <h1>Contacto</h1>
+      <p class="muted">Escríbenos y con gusto te ayudamos con tu reserva.</p>
+    </header>
+
+    <section class="grid">
+      <!-- Formulario -->
+      <section class="card form-card" aria-labelledby="h-form">
+        <h2 id="h-form">Formulario de contacto</h2>
+        <form id="contact-form" novalidate>
+          <div class="row two">
+            <div class="field">
+              <label for="name">Nombre</label>
+              <input id="name" name="name" type="text" placeholder="Tu nombre completo" required />
+            </div>
+            <div class="field">
+              <label for="email">Correo</label>
+              <input id="email" name="email" type="email" placeholder="tu@correo.com" required />
+            </div>
+          </div>
+
+          <div class="row two">
+            <div class="field">
+              <label for="phone">WhatsApp</label>
+              <input id="phone" name="phone" type="tel" placeholder="+52 ..." />
+            </div>
+            <div class="field">
+              <label for="topic">Motivo</label>
+              <select id="topic" name="topic" required>
+                <option value="">Selecciona…</option>
+                <option value="reserva">Reserva</option>
+                <option value="facturacion">Facturación</option>
+                <option value="soporte">Soporte durante estancia</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="field">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" rows="6" placeholder="Cuéntanos en qué te ayudamos…" required></textarea>
+            </div>
+          </div>
+
+          <div class="row actions">
+            <button class="btn-primary" type="submit">Enviar</button>
+            <p id="form-msg" class="muted" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+        <p class="privacy-note small">Al enviar aceptas nuestro <a href="terminos.html">Aviso de términos</a> y <a href="privacidad.html">Acuerdo de privacidad</a>.</p>
+      </section>
+
+      <!-- Contacto directo -->
+      <aside class="card quick" aria-labelledby="h-quick">
+        <h2 id="h-quick">Contacto directo</h2>
+        <ul class="quick-list">
+          <li><strong>WhatsApp:</strong> <a target="_blank" rel="noopener" href="https://wa.me/525654405792">+52 565 440 5792</a></li>
+          <li><strong>Correo:</strong> <a href="mailto:ecolmia.ventures@gmail.com">ecolmia.ventures@gmail.com</a></li>
+        </ul>
+        <div class="notice">
+          Respondemos de 9:00 a 20:00 (MX). En emergencias durante tu estancia, te daremos un canal prioritario al confirmar tu reserva.
+        </div>
+      </aside>
+
+      <!-- Mapas -->
+      <section class="card maps" aria-labelledby="h-maps">
+        <h2 id="h-maps">Ubicaciones de referencia</h2>
+        <div class="map-grid">
+          <div class="map-item">
+            <h3>CDMX — Coyoacán</h3>
+            <p class="muted small">Referencia general (la dirección exacta se comparte solo con huéspedes confirmados).</p>
+            <iframe title="Mapa CDMX" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-99.202,19.308,-99.109,19.371&layer=mapnik&marker=19.35,-99.15"></iframe>
+          </div>
+          <div class="map-item">
+            <h3>Acapulco — Farallón / Diana Cazadora</h3>
+            <p class="muted small">Referencia general (la dirección exacta se comparte solo con huéspedes confirmados).</p>
+            <iframe title="Mapa Acapulco" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-99.950,16.790,-99.840,16.900&layer=mapnik&marker=16.85,-99.90"></iframe>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>

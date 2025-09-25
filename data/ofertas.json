@@ -1,0 +1,57 @@
+[
+  {
+    "id": "stay-7-13",
+    "title": "Estancias de 7 a 13 noches",
+    "discount": "10% de descuento",
+    "badges": [
+      "Flexible",
+      "Reserva aquí"
+    ],
+    "description": "Ideal para viajes de trabajo o escapadas extendidas. El descuento se aplica sobre la tarifa base por noche.",
+    "image": "img/ofertas/long1.jpg"
+  },
+  {
+    "id": "stay-14-27",
+    "title": "Estancias de 14 a 27 noches",
+    "discount": "15% de descuento",
+    "badges": [
+      "Mejor valor",
+      "Reserva aquí"
+    ],
+    "description": "Para quienes necesitan quedarse un poco más. Ahorra con una tarifa preferente por largas estancias.",
+    "image": "img/ofertas/long2.jpg"
+  },
+  {
+    "id": "stay-28-plus",
+    "title": "28 noches o más",
+    "discount": "20% de descuento",
+    "badges": [
+      "Larga estancia",
+      "Reserva aquí"
+    ],
+    "description": "La opción más conveniente para estancias prolongadas. Aplicable en nuestros alojamientos disponibles.",
+    "image": "img/ofertas/long3.jpg"
+  },
+  {
+    "id": "early-30",
+    "title": "Compra anticipada (30+ días)",
+    "discount": "10% adicional",
+    "badges": [
+      "Planifica y ahorra",
+      "Reserva aquí"
+    ],
+    "description": "Reserva con al menos 30 días de anticipación y recibe un 10% adicional sobre la tarifa vigente.",
+    "image": "img/ofertas/early.jpg"
+  },
+  {
+    "id": "unam",
+    "title": "UNAM — Estudiantes y académicos (CDMX)",
+    "discount": "10% de descuento",
+    "badges": [
+      "Solo BMR/CTR",
+      "Identificación requerida"
+    ],
+    "description": "Descuento exclusivo para comunidad UNAM (estudiantes y académicos). Aplica únicamente en CDMX: BMR y CTR.",
+    "image": "img/ofertas/unam.jpg"
+  }
+]

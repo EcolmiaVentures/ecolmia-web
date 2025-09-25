@@ -1,0 +1,7 @@
+/* Team */
+Developer: ECOLMIA + Cristhian
+Contact: ecolmia.ventures@gmail.com
+
+/* Site */
+Standards: HTML5, CSS3, ES6
+Hosting: GitHub Pages

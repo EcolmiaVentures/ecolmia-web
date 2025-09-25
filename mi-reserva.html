@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi reserva | ECOLMIA VENTURES</title>
+  <meta name="description" content="Consulta el estado y detalles de tu reserva usando tu correo y folio." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/mi-reserva.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/mi-reserva.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container my-booking" role="main">
+    <section class="hero">
+      <h1>Consulta tu reserva</h1>
+      <p class="muted">Ingresa el <strong>correo</strong> con el que reservaste y tu <strong>folio</strong>.</p>
+    </section>
+
+    <section class="card search-card" aria-labelledby="buscar">
+      <h2 id="buscar">Buscar mi reserva</h2>
+      <form id="booking-form" novalidate>
+        <div class="grid two">
+          <div class="field">
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" placeholder="tu@correo.com" required />
+          </div>
+          <div class="field">
+            <label for="folio">Folio / ID</label>
+            <input id="folio" name="folio" type="text" placeholder="EC-XXXX-YYYY" required />
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn-primary" type="submit">Buscar mi reserva</button>
+          <p id="form-msg" class="muted" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </section>
+
+    <section id="result" class="card result hidden" aria-live="polite">
+      <header class="res-head">
+        <div class="status"><span id="res-status" class="pill">—</span></div>
+        <div class="id">Folio: <strong id="res-id">—</strong></div>
+      </header>
+      <div class="res-grid">
+        <div class="res-col">
+          <h3>Resumen</h3>
+          <ul class="kv">
+            <li><span>Alojamiento</span><strong id="res-prop">—</strong></li>
+            <li><span>Espacio</span><strong id="res-room">—</strong></li>
+            <li><span>Huéspedes</span><strong id="res-guests">—</strong></li>
+            <li><span>Check‑in</span><strong id="res-in">—</strong></li>
+            <li><span>Check‑out</span><strong id="res-out">—</strong></li>
+            <li><span>Noches</span><strong id="res-nights">—</strong></li>
+          </ul>
+        </div>
+        <div class="res-col">
+          <h3>Pago</h3>
+          <ul class="kv">
+            <li><span>Total (MXN)</span><strong id="res-total">—</strong></li>
+            <li><span>Método</span><strong id="res-pay">—</strong></li>
+          </ul>
+          <div class="receipt">
+            <button id="btn-pdf" class="btn-ghost" type="button">Descargar comprobante (PDF)</button>
+            <p class="muted small">* Demo: genera un comprobante básico en PDF cuando activemos esta funcionalidad.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>

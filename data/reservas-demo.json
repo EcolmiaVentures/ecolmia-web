@@ -1,0 +1,38 @@
+[
+  {
+    "folio": "EC-2025-0001",
+    "email": "huesped1@correo.com",
+    "property": "BMR (CDMX)",
+    "space": "Habitación Berlín",
+    "guests": 2,
+    "checkin": "2025-03-04",
+    "checkout": "2025-03-07",
+    "total_mxn": 1650,
+    "payment": "Transferencia",
+    "status": "Confirmada"
+  },
+  {
+    "folio": "EC-2025-0002",
+    "email": "huesped2@correo.com",
+    "property": "CTR (CDMX)",
+    "space": "Departamento completo",
+    "guests": 5,
+    "checkin": "2025-04-12",
+    "checkout": "2025-04-15",
+    "total_mxn": 5250,
+    "payment": "Transferencia",
+    "status": "En proceso"
+  },
+  {
+    "folio": "EC-2025-0003",
+    "email": "huesped3@correo.com",
+    "property": "Zodiac (Acapulco)",
+    "space": "Habitación Géminis",
+    "guests": 2,
+    "checkin": "2025-05-01",
+    "checkout": "2025-05-05",
+    "total_mxn": 2196,
+    "payment": "Transferencia",
+    "status": "Confirmada"
+  }
+]

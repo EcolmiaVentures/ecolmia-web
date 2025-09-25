@@ -1,0 +1,57 @@
+{
+  "atracciones": [
+    {
+      "name": "La Diana Cazadora",
+      "desc": "Icono de la ciudad, ideal como punto de referencia.",
+      "image": "img/guia/acapulco/diana.jpg"
+    },
+    {
+      "name": "Costera Miguel Alemán",
+      "desc": "Playas, restaurantes y vida nocturna.",
+      "image": "img/guia/acapulco/costera.jpg"
+    },
+    {
+      "name": "La Quebrada",
+      "desc": "Clavados tradicionales, vista espectacular.",
+      "image": "img/guia/acapulco/quebrada.jpg"
+    }
+  ],
+  "comida": [
+    {
+      "name": "Marisquerías locales",
+      "type": "Cocina de mar",
+      "desc": "Pescado y mariscos frescos al estilo costeño."
+    },
+    {
+      "name": "Costera",
+      "type": "Bares y restaurantes",
+      "desc": "Ambiente relajado y opciones variadas."
+    },
+    {
+      "name": "Mercados",
+      "type": "Comida típica",
+      "desc": "Platillos caseros y precios accesibles."
+    },
+    {
+      "name": "Centros comerciales",
+      "type": "Compras",
+      "desc": "Tiendas y servicios en una sola parada."
+    }
+  ],
+  "transporte": [
+    "Rutas de camión sobre Costera y avenidas principales.",
+    "Taxis locales y apps de transporte disponibles.",
+    "Estacionamientos privados en zonas comerciales."
+  ],
+  "servicios": [
+    "Farmacias y tiendas de conveniencia cercanas.",
+    "Cajeros y bancos sobre Costera.",
+    "Clínicas y consultorios en la colonia Farallón."
+  ],
+  "consejos": [
+    "Hidrátate y usa bloqueador; clima cálido y húmedo.",
+    "Evita llevar objetos de valor a la playa.",
+    "Pregunta por corrientes antes de nadar en mar abierto."
+  ],
+  "mapa_iframe": "https://www.openstreetmap.org/export/embed.html?bbox=-99.950,16.790,-99.840,16.900&layer=mapnik&marker=16.85,-99.90"
+}

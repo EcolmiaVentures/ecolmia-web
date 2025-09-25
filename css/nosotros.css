@@ -1,0 +1,8 @@
+.page-head h1{margin:24px 0 6px}
+.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid #242833;border-radius:16px;padding:16px;box-shadow:0 8px 24px var(--shadow)}
+.content h2{margin-top:0}
+.content h3{margin-top:18px}
+.content ul{margin-left:18px;display:grid;gap:6px}
+.content p{line-height:1.65}
+.content a{color:var(--brand)}

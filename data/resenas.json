@@ -1,0 +1,80 @@
+[
+  {
+    "property": "BMR",
+    "stay_type": "Habitación",
+    "room_label": "Berlín",
+    "reviewer": "Daniela R.",
+    "rating": 5,
+    "date": "2025-02-01",
+    "tags": [
+      "Limpieza",
+      "Ubicación"
+    ],
+    "text": "La habitación Berlín está muy cómoda y limpia. Zona tranquila cerca de servicios. Check-in claro y anfitriones atentos."
+  },
+  {
+    "property": "BMR",
+    "stay_type": "Departamento completo",
+    "room_label": "Departamento BMR",
+    "reviewer": "Héctor M.",
+    "rating": 4,
+    "date": "2025-01-28",
+    "tags": [
+      "Silencioso",
+      "Equipado"
+    ],
+    "text": "Reservamos el depa completo y todo funcionó bien. Cocina equipada y Wi‑Fi estable. Ideal para trabajo y descanso."
+  },
+  {
+    "property": "CTR",
+    "stay_type": "Habitación",
+    "room_label": "Cartagena",
+    "reviewer": "María P.",
+    "rating": 5,
+    "date": "2025-01-18",
+    "tags": [
+      "Atención",
+      "Comodidad"
+    ],
+    "text": "Cartagena es amplia y con buen clóset. Las áreas comunes se mantienen limpias y seguras. Volvería sin duda."
+  },
+  {
+    "property": "CTR",
+    "stay_type": "Habitación",
+    "room_label": "Roma",
+    "reviewer": "Luis C.",
+    "rating": 4,
+    "date": "2025-01-10",
+    "tags": [
+      "Ubicación",
+      "Valor"
+    ],
+    "text": "Buena relación calidad-precio. Fácil acceso y comunicación rápida. Perfecto para estancias de trabajo."
+  },
+  {
+    "property": "ZODIAC",
+    "stay_type": "Habitación",
+    "room_label": "Géminis",
+    "reviewer": "Paola S.",
+    "rating": 5,
+    "date": "2025-02-05",
+    "tags": [
+      "A/C",
+      "Confort"
+    ],
+    "text": "Agradecí el aire acondicionado, se descansa súper bien. Cerca de la zona turística pero sin ruido excesivo."
+  },
+  {
+    "property": "ZODIAC",
+    "stay_type": "Habitación",
+    "room_label": "Virgo",
+    "reviewer": "Andrés G.",
+    "rating": 4,
+    "date": "2025-01-22",
+    "tags": [
+      "Limpieza",
+      "Ubicación"
+    ],
+    "text": "Todo impecable y cómodo. Buena señal de internet y cocina lista para usar. Recomendado."
+  }
+]

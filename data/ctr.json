@@ -1,0 +1,124 @@
+{
+  "id": "CTR",
+  "short": "CTR",
+  "title": "Departamento CTR — Primer piso (3 habitaciones)",
+  "location": "Pedregal de Santo Domingo, Coyoacán · CDMX (referencia general)",
+  "prices": {
+    "weekday": 1650,
+    "weekend": 1750
+  },
+  "photos": {
+    "areas": [
+      "img/ctr/areas.jpg",
+      "img/ctr/areas.jpg",
+      "img/ctr/areas.jpg",
+      "img/ctr/areas.jpg",
+      "img/ctr/areas.jpg",
+      "img/ctr/areas.jpg"
+    ],
+    "room1": [
+      "img/ctr/cartagena.jpg",
+      "img/ctr/cartagena.jpg",
+      "img/ctr/cartagena.jpg",
+      "img/ctr/cartagena.jpg",
+      "img/ctr/cartagena.jpg",
+      "img/ctr/cartagena.jpg"
+    ],
+    "room2": [
+      "img/ctr/tokio.jpg",
+      "img/ctr/tokio.jpg",
+      "img/ctr/tokio.jpg",
+      "img/ctr/tokio.jpg",
+      "img/ctr/tokio.jpg",
+      "img/ctr/tokio.jpg"
+    ],
+    "room3": [
+      "img/ctr/roma.jpg",
+      "img/ctr/roma.jpg",
+      "img/ctr/roma.jpg",
+      "img/ctr/roma.jpg",
+      "img/ctr/roma.jpg",
+      "img/ctr/roma.jpg"
+    ]
+  },
+  "about": {
+    "alojamiento": "Departamento compartido en primer piso con 3 habitaciones (Cartagena, Tokio y Roma), áreas comunes equipadas y ambiente cordial y seguro.",
+    "acceso": [
+      "Habitación privada + cocina equipada + sala + comedor.",
+      "Baño completo y medio baño compartidos.",
+      "Por privacidad: evitar acceso a otras habitaciones o zonas restringidas del edificio."
+    ],
+    "estancia": "Atención por chat/WhatsApp durante la estancia. Datos se comparten tras la reserva y 1 hora antes del check-in.",
+    "destacados": [
+      "Check-in 15:00–23:59 · Check-out 10:00",
+      "Estacionamiento: 1 lugar por departamento (solicitar al reservar)",
+      "Mascotas: máx. 2 · MXN $150 por estancia",
+      "Limpieza diaria en áreas comunes; limpieza de habitación al inicio"
+    ]
+  },
+  "amenities": {
+    "Baño": [
+      "Secadora de pelo",
+      "Agua caliente"
+    ],
+    "Habitación y lavandería": [
+      "Ganchos",
+      "Ropa de cama",
+      "Cortinas opacas",
+      "Plancha",
+      "Clóset"
+    ],
+    "Entretenimiento": [
+      "Televisión HD",
+      "Fire TV / Roku"
+    ],
+    "Privacidad y seguridad": [
+      "Cerradura en puerta de la habitación",
+      "Cámaras en áreas comunes",
+      "Detector de humo",
+      "Detector de CO",
+      "Extintor",
+      "Botiquín"
+    ],
+    "Internet y oficina": [
+      "Wi‑Fi",
+      "Espacio para trabajar (habitación con puerta)"
+    ],
+    "Cocina y comedor": [
+      "Cocina equipada",
+      "Refrigerador",
+      "Microondas",
+      "Básicos de cocina",
+      "Platos y cubiertos",
+      "Licuadora",
+      "Estufa y horno",
+      "Jarra eléctrica",
+      "Tostador",
+      "Mesa de comedor"
+    ],
+    "Estacionamiento e instalaciones": [
+      "Estacionamiento gratuito en sitio (1 lugar)",
+      "Acceso por escaleras"
+    ],
+    "Servicios": [
+      "Se admiten mascotas",
+      "Equipaje permitido",
+      "Estancias largas (28+ días)",
+      "Limpieza disponible (costo adicional)"
+    ],
+    "No incluidos": [
+      "Lavadora",
+      "Secadora",
+      "Aire acondicionado",
+      "Calefacción"
+    ]
+  },
+  "rules": [
+    "No fumar ni consumir drogas dentro del edificio.",
+    "Respetar el descanso en áreas comunes (estacionamiento, escaleras, pasillos).",
+    "Costo por pérdida de llaves: MXN $250 por juego.",
+    "No bloquear la cerradura interna del departamento.",
+    "Disponer la basura en los botes del departamento; si se acumula, usar contenedores designados.",
+    "Insumos básicos iniciales; reabastecimiento posterior a cargo del huésped."
+  ]
+}

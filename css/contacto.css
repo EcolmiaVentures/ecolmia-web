@@ -1,0 +1,15 @@
+.contact-head h1{margin:24px 0 6px}
+.muted{color:var(--muted)}
+.small{font-size:.95rem}
+.grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+.card{background:var(--card);border:1px solid #242833;border-radius:16px;padding:16px;box-shadow:0 8px 24px var(--shadow)}
+.form-card .row{display:grid;gap:12px;margin-bottom:12px}
+.form-card .row.two{grid-template-columns:1fr 1fr}
+.field label{display:block;margin-bottom:6px;font-size:.95rem}
+.field input,.field select,.field textarea{width:100%;padding:10px;border-radius:10px;border:1px solid #2a2f3a;background:#12151b;color:var(--text)}
+.actions{display:flex;align-items:center;gap:12px}
+.quick .quick-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.notice{margin-top:12px;font-size:.95rem;color:#d7dbea}
+.maps .map-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.map-item iframe{width:100%;height:300px;border:none;border:1px solid #242833;border-radius:12px}
+@media(max-width:1050px){.grid{grid-template-columns:1fr}.form-card .row.two{grid-template-columns:1fr}.maps .map-grid{grid-template-columns:1fr}}

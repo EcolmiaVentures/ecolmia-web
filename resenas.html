@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reseñas | ECOLMIA VENTURES</title>
+  <meta name="description" content="Opiniones de huéspedes por alojamiento: BMR, CTR y Zodiac. Calidad, limpieza y atención destacadas." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" href="css/base.css" as="style" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/resenas.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/resenas.js"></script>
+</head>
+<body>
+  <header id="site-header" role="banner" aria-label="Cabecera"></header>
+
+  <main class="container reviews" role="main">
+    <section class="intro">
+      <h1 class="page-title">Reseñas de huéspedes</h1>
+      <p class="page-sub">Experiencias reales, organizadas por alojamiento. Gracias por hospedarte con nosotros.</p>
+    </section>
+
+    <section class="controls card">
+      <div class="filters">
+        <div class="filter">
+          <label for="by-prop">Alojamiento</label>
+          <select id="by-prop" aria-label="Filtrar por alojamiento">
+            <option value="ALL">Todos</option>
+            <option value="BMR">BMR</option>
+            <option value="CTR">CTR</option>
+            <option value="ZODIAC">Zodiac</option>
+          </select>
+        </div>
+        <div class="filter">
+          <label for="by-sort">Ordenar por</label>
+          <select id="by-sort" aria-label="Ordenar reseñas">
+            <option value="date_desc">Más recientes</option>
+            <option value="date_asc">Más antiguas</option>
+            <option value="rating_desc">Mejor calificación</option>
+            <option value="rating_asc">Menor calificación</option>
+          </select>
+        </div>
+      </div>
+      <p class="muted small">
+        Nota: La opción para **dejar reseña** se envía **solo por enlace privado** al final de la estancia. No hay formulario público.
+      </p>
+    </section>
+
+    <section id="reviews-list" class="cards-grid"></section>
+  </main>
+
+  <footer id="site-footer" role="contentinfo" aria-label="Pie de página"></footer>
+</body>
+</html>
