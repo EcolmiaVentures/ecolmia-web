@@ -1,57 +1,48 @@
 {
-  "atracciones": [
+  "items": [
     {
-      "name": "Centro de Coyoacán",
-      "desc": "Plaza Hidalgo, Jardín Centenario y ambiente cultural.",
-      "image": "img/guia/cdmx/coyo.jpg"
+      "id": "cdmx_zocalo",
+      "titulo": "Zócalo",
+      "categoria": "Atracciones principales",
+      "zona": "Centro Histórico",
+      "descripcion": "La plaza más emblemática de México, rodeada de historia y cultura.",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "imagen": "/ecolmia-web/img/guia/cdmx/zocalo.jpg",
+      "tags": [
+        "Historia",
+        "Familiar"
+      ],
+      "url": "https://cdmx.gob.mx"
     },
     {
-      "name": "UNAM — CU",
-      "desc": "Murales, MUAC, Universum y espacios naturales.",
-      "image": "img/guia/cdmx/unam.jpg"
+      "id": "cdmx_frida",
+      "titulo": "Museo Frida Kahlo (Casa Azul)",
+      "categoria": "Atracciones principales",
+      "zona": "Coyoacán",
+      "descripcion": "Uno de los museos más visitados de la ciudad, imprescindible en Coyoacán.",
+      "lat": 19.355,
+      "lng": -99.162,
+      "imagen": "/ecolmia-web/img/guia/cdmx/frida.jpg",
+      "tags": [
+        "Museo",
+        "Cultura"
+      ],
+      "url": "https://www.museofridakahlo.org.mx/"
     },
     {
-      "name": "Museo Frida Kahlo",
-      "desc": "La Casa Azul, imprescindible para amantes del arte.",
-      "image": "img/guia/cdmx/frida.jpg"
+      "id": "cdmx_mercado",
+      "titulo": "Mercado de Coyoacán",
+      "categoria": "Gastronomía local",
+      "zona": "Coyoacán",
+      "descripcion": "Cocina típica, antojitos y artesanías en un clásico mercado capitalino.",
+      "lat": 19.349,
+      "lng": -99.1625,
+      "imagen": "/ecolmia-web/img/guia/cdmx/mercado.jpg",
+      "tags": [
+        "Comida",
+        "Tradicional"
+      ]
     }
-  ],
-  "comida": [
-    {
-      "name": "Mercado de Coyoacán",
-      "type": "Antojitos y jugos",
-      "desc": "Clásicos locales a buen precio."
-    },
-    {
-      "name": "Avenida Miguel Ángel de Quevedo",
-      "type": "Cafés y restaurantes",
-      "desc": "Opciones variadas para todos los gustos."
-    },
-    {
-      "name": "Plaza Oasis",
-      "type": "Centro comercial",
-      "desc": "Compras y comida en un solo lugar."
-    },
-    {
-      "name": "Churros y helados artesanales",
-      "type": "Postres",
-      "desc": "Ideal para caminar por la plaza."
-    }
-  ],
-  "transporte": [
-    "Metro Línea 3 (Coyoacán/Universidad) — conexión hacia el centro.",
-    "Metrobús Línea 1 y rutas de micro hacia puntos principales.",
-    "Apps de taxi y bici pública disponibles en la zona."
-  ],
-  "servicios": [
-    "Farmacias y Oxxo/7-Eleven a pocas cuadras.",
-    "Cajeros automáticos y bancos sobre avenidas principales.",
-    "Lavanderías y papelerías de barrio cercanas."
-  ],
-  "consejos": [
-    "Evita horas pico de tránsito si te mueves en auto.",
-    "Mantén tus pertenencias seguras en sitios concurridos.",
-    "Consulta horarios de museos y compra boletos con antelación."
-  ],
-  "mapa_iframe": "https://www.openstreetmap.org/export/embed.html?bbox=-99.202,19.308,-99.109,19.371&layer=mapnik&marker=19.35,-99.15"
+  ]
 }

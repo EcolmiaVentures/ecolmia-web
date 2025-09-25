@@ -1,43 +1,64 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <title>Guía Acapulco - ECOLMIA VENTURES</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía Acapulco · ECOLMIA VENTURES</title>
+  <meta name="description" content="Guía de Acapulco para huéspedes de ECOLMIA VENTURES: atracciones, gastronomía, compras y más.">
+  <link rel="stylesheet" href="/ecolmia-web/css/guide.css">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <!-- MarkerCluster (optional) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
 </head>
 <body>
-  <!-- Header global -->
-  <header>
-    <nav>Menú fijo aquí</nav>
-  </header>
+  <div id="app-header"></div>
 
-  <main>
-    <aside>
-      <ul>
-        <li>Playas</li>
-        <li>Vida nocturna</li>
-        <li>Restaurantes y mariscos</li>
-        <li>Compras locales</li>
-      </ul>
-    </aside>
-
-    <section>
+  <main class="container" data-json="/ecolmia-web/data/guia-acapulco.json">
+    <section class="hero">
       <h1>Guía Acapulco</h1>
-      <div class="tarjeta">
-        <img src="img/acapulco1.jpg" alt="Playa Condesa" />
-        <h3>Playa Condesa ⭐</h3>
-        <p>Una de las playas más populares de Acapulco, ideal para turistas.</p>
-      </div>
-      <div class="tarjeta">
-        <img src="img/acapulco2.jpg" alt="La Quebrada" />
-        <h3>La Quebrada</h3>
-        <p>Famoso lugar donde clavadistas se lanzan desde acantilados.</p>
-      </div>
-      <div class="mapa">Mapa aquí</div>
+      <p>Sugerencias cercanas a Diana Cazadora – Farallón y Zona Dorada.</p>
     </section>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <h3>Menú de guía</h3>
+        <nav class="nav">
+          <a href="#grid">Atracciones y lugares</a>
+          <a href="#map">Mapa interactivo</a>
+          <a href="#tips">Consejos prácticos</a>
+        </nav>
+      </aside>
+
+      <section>
+        <div class="controls">
+          <div class="search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15a7.5 7.5 0 0 1 0 15Z" stroke="#6b7280" stroke-width="2" stroke-linecap="round"/></svg>
+            <input id="search" type="search" placeholder="Buscar lugares, categorías, zonas…" aria-label="Buscar">
+          </div>
+          <div class="chips" role="toolbar" aria-label="Filtros"></div>
+        </div>
+
+        <section id="grid" class="grid" aria-live="polite"></section>
+
+        <section class="map-wrap">
+          <div id="map" role="region" aria-label="Mapa interactivo de guía"></div>
+        </section>
+
+        <section id="tips">
+          <h3>Consejos prácticos</h3>
+          <p class="footer-note">Sugerencias generales para moverte con seguridad, horarios recomendados y apps de utilidad. Las ubicaciones mostradas en el mapa son aproximadas.</p>
+        </section>
+      </section>
+    </div>
   </main>
 
-  <!-- Footer global -->
-  <footer>Pie de página fijo aquí</footer>
+  <div id="app-footer"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="/ecolmia-web/js/guide.js"></script>
 </body>
 </html>

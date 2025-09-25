@@ -1,57 +1,45 @@
 {
-  "atracciones": [
+  "items": [
     {
-      "name": "La Diana Cazadora",
-      "desc": "Icono de la ciudad, ideal como punto de referencia.",
-      "image": "img/guia/acapulco/diana.jpg"
+      "id": "aca_condesa",
+      "titulo": "Playa Condesa",
+      "categoria": "Playas y atracciones",
+      "zona": "Zona Dorada",
+      "descripcion": "Playa icónica con ambiente animado y servicios turísticos.",
+      "lat": 16.856,
+      "lng": -99.865,
+      "imagen": "/ecolmia-web/img/guia/acapulco/condesa.jpg",
+      "tags": [
+        "Familiar",
+        "Servicios"
+      ]
     },
     {
-      "name": "Costera Miguel Alemán",
-      "desc": "Playas, restaurantes y vida nocturna.",
-      "image": "img/guia/acapulco/costera.jpg"
+      "id": "aca_quebrada",
+      "titulo": "La Quebrada",
+      "categoria": "Playas y atracciones",
+      "zona": "Centro",
+      "descripcion": "Famoso mirador donde clavadistas se lanzan desde los acantilados.",
+      "lat": 16.853,
+      "lng": -99.908,
+      "imagen": "/ecolmia-web/img/guia/acapulco/quebrada.jpg",
+      "tags": [
+        "Mirador",
+        "Espectáculo"
+      ]
     },
     {
-      "name": "La Quebrada",
-      "desc": "Clavados tradicionales, vista espectacular.",
-      "image": "img/guia/acapulco/quebrada.jpg"
+      "id": "aca_galerias",
+      "titulo": "Galerías Diana",
+      "categoria": "Compras y servicios",
+      "zona": "Zona Dorada",
+      "descripcion": "Centro comercial con tiendas, restaurantes y cine.",
+      "lat": 16.8569,
+      "lng": -99.869,
+      "imagen": "/ecolmia-web/img/guia/acapulco/diana.jpg",
+      "tags": [
+        "Shopping"
+      ]
     }
-  ],
-  "comida": [
-    {
-      "name": "Marisquerías locales",
-      "type": "Cocina de mar",
-      "desc": "Pescado y mariscos frescos al estilo costeño."
-    },
-    {
-      "name": "Costera",
-      "type": "Bares y restaurantes",
-      "desc": "Ambiente relajado y opciones variadas."
-    },
-    {
-      "name": "Mercados",
-      "type": "Comida típica",
-      "desc": "Platillos caseros y precios accesibles."
-    },
-    {
-      "name": "Centros comerciales",
-      "type": "Compras",
-      "desc": "Tiendas y servicios en una sola parada."
-    }
-  ],
-  "transporte": [
-    "Rutas de camión sobre Costera y avenidas principales.",
-    "Taxis locales y apps de transporte disponibles.",
-    "Estacionamientos privados en zonas comerciales."
-  ],
-  "servicios": [
-    "Farmacias y tiendas de conveniencia cercanas.",
-    "Cajeros y bancos sobre Costera.",
-    "Clínicas y consultorios en la colonia Farallón."
-  ],
-  "consejos": [
-    "Hidrátate y usa bloqueador; clima cálido y húmedo.",
-    "Evita llevar objetos de valor a la playa.",
-    "Pregunta por corrientes antes de nadar en mar abierto."
-  ],
-  "mapa_iframe": "https://www.openstreetmap.org/export/embed.html?bbox=-99.950,16.790,-99.840,16.900&layer=mapnik&marker=16.85,-99.90"
+  ]
 }
