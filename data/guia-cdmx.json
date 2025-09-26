@@ -1,48 +1,28 @@
 {
   "items": [
     {
+      "id": "cdmx_frida",
+      "titulo": "Museo Frida Kahlo",
+      "categoria": "Atracciones principales",
+      "zona": "Coyoacán",
+      "descripcion": "La Casa Azul, uno de los museos más visitados de CDMX.",
+      "lat": 19.355,
+      "lng": -99.162,
+      "imagen": "img/guia/cdmx/frida.jpg",
+      "tags": ["Museo", "Historia"],
+      "url": "https://www.museofridakahlo.org.mx/"
+    },
+    {
       "id": "cdmx_zocalo",
       "titulo": "Zócalo",
       "categoria": "Atracciones principales",
       "zona": "Centro Histórico",
-      "descripcion": "La plaza más emblemática de México, rodeada de historia y cultura.",
-      "lat": 19.4326,
-      "lng": -99.1332,
-      "imagen": "/ecolmia-web/img/guia/cdmx/zocalo.jpg",
-      "tags": [
-        "Historia",
-        "Familiar"
-      ],
-      "url": "https://cdmx.gob.mx"
-    },
-    {
-      "id": "cdmx_frida",
-      "titulo": "Museo Frida Kahlo (Casa Azul)",
-      "categoria": "Atracciones principales",
-      "zona": "Coyoacán",
-      "descripcion": "Uno de los museos más visitados de la ciudad, imprescindible en Coyoacán.",
-      "lat": 19.355,
-      "lng": -99.162,
-      "imagen": "/ecolmia-web/img/guia/cdmx/frida.jpg",
-      "tags": [
-        "Museo",
-        "Cultura"
-      ],
-      "url": "https://www.museofridakahlo.org.mx/"
-    },
-    {
-      "id": "cdmx_mercado",
-      "titulo": "Mercado de Coyoacán",
-      "categoria": "Gastronomía local",
-      "zona": "Coyoacán",
-      "descripcion": "Cocina típica, antojitos y artesanías en un clásico mercado capitalino.",
-      "lat": 19.349,
-      "lng": -99.1625,
-      "imagen": "/ecolmia-web/img/guia/cdmx/mercado.jpg",
-      "tags": [
-        "Comida",
-        "Tradicional"
-      ]
+      "descripcion": "La plaza más emblemática de México con historia y cultura.",
+      "lat": 19.433,
+      "lng": -99.133,
+      "imagen": "img/guia/cdmx/zocalo.jpg",
+      "tags": ["Historia", "Familiar"],
+      "url": "https://es.wikipedia.org/wiki/Z%C3%B3calo_de_la_Ciudad_de_M%C3%A9xico"
     }
   ]
 }

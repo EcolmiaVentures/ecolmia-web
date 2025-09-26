@@ -8,38 +8,21 @@
       "descripcion": "Playa icónica con ambiente animado y servicios turísticos.",
       "lat": 16.856,
       "lng": -99.865,
-      "imagen": "/ecolmia-web/img/guia/acapulco/condesa.jpg",
-      "tags": [
-        "Familiar",
-        "Servicios"
-      ]
+      "imagen": "img/guia/acapulco/condesa.jpg",
+      "tags": ["Familiar", "Servicios"],
+      "url": "https://www.visitacapulco.travel/"
     },
     {
       "id": "aca_quebrada",
       "titulo": "La Quebrada",
       "categoria": "Playas y atracciones",
       "zona": "Centro",
-      "descripcion": "Famoso mirador donde clavadistas se lanzan desde los acantilados.",
-      "lat": 16.853,
+      "descripcion": "Famoso lugar donde clavadistas se lanzan desde acantilados.",
+      "lat": 16.863,
       "lng": -99.908,
-      "imagen": "/ecolmia-web/img/guia/acapulco/quebrada.jpg",
-      "tags": [
-        "Mirador",
-        "Espectáculo"
-      ]
-    },
-    {
-      "id": "aca_galerias",
-      "titulo": "Galerías Diana",
-      "categoria": "Compras y servicios",
-      "zona": "Zona Dorada",
-      "descripcion": "Centro comercial con tiendas, restaurantes y cine.",
-      "lat": 16.8569,
-      "lng": -99.869,
-      "imagen": "/ecolmia-web/img/guia/acapulco/diana.jpg",
-      "tags": [
-        "Shopping"
-      ]
+      "imagen": "img/guia/acapulco/quebrada.jpg",
+      "tags": ["Mirador", "Espectáculo"],
+      "url": "https://es.wikipedia.org/wiki/La_Quebrada_(Acapulco)"
     }
   ]
 }

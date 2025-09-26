@@ -1,64 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Guía CDMX · ECOLMIA VENTURES</title>
-  <meta name="description" content="Guía de CDMX para huéspedes de ECOLMIA VENTURES: atracciones, gastronomía, compras y más.">
-  <link rel="stylesheet" href="/ecolmia-web/css/guide.css">
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
-  <!-- MarkerCluster (optional) -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía CDMX - ECOLMIA VENTURES</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/guide.css">
 </head>
 <body>
-  <div id="app-header"></div>
+  <header id="site-header"></header>
 
-  <main class="container" data-json="/ecolmia-web/data/guia-cdmx.json">
-    <section class="hero">
-      <h1>Guía CDMX</h1>
-      <p>Recomendaciones curadas alrededor de Coyoacán y zonas cercanas.</p>
-    </section>
+  <section class="hero">
+    <h1>Guía CDMX</h1>
+    <p>Recomendaciones curadas alrededor de Coyoacán y zonas cercanas.</p>
+  </section>
 
-    <div class="layout">
-      <aside class="sidebar">
-        <h3>Menú de guía</h3>
-        <nav class="nav">
-          <a href="#grid">Atracciones y lugares</a>
-          <a href="#map">Mapa interactivo</a>
-          <a href="#tips">Consejos prácticos</a>
-        </nav>
-      </aside>
+  <main class="guide-layout">
+    <aside class="guide-menu">
+      <ul>
+        <li><a href="#atracciones">Atracciones principales</a></li>
+        <li><a href="#cultura">Cultura y entretenimiento</a></li>
+        <li><a href="#gastronomia">Gastronomía local</a></li>
+        <li><a href="#compras">Compras y servicios</a></li>
+        <li><a href="#transporte">Transporte y movilidad</a></li>
+        <li><a href="#consejos">Consejos prácticos</a></li>
+      </ul>
+    </aside>
 
-      <section>
-        <div class="controls">
-          <div class="search">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15a7.5 7.5 0 0 1 0 15Z" stroke="#6b7280" stroke-width="2" stroke-linecap="round"/></svg>
-            <input id="search" type="search" placeholder="Buscar lugares, categorías, zonas…" aria-label="Buscar">
-          </div>
-          <div class="chips" role="toolbar" aria-label="Filtros"></div>
-        </div>
+    <section class="guide-content">
+      <div class="search-filters">
+        <input type="text" placeholder="Buscar lugares, categorías, zonas...">
+        <div class="chips"></div>
+      </div>
 
-        <section id="grid" class="grid" aria-live="polite"></section>
+      <div id="cards-grid" class="cards-grid"></div>
+      <div id="map" class="map"></div>
 
-        <section class="map-wrap">
-          <div id="map" role="region" aria-label="Mapa interactivo de guía"></div>
-        </section>
-
-        <section id="tips">
-          <h3>Consejos prácticos</h3>
-          <p class="footer-note">Sugerencias generales para moverte con seguridad, horarios recomendados y apps de utilidad. Las ubicaciones mostradas en el mapa son aproximadas.</p>
-        </section>
+      <section id="consejos">
+        <h2>Consejos prácticos</h2>
+        <p>Sugerencias generales de seguridad, movilidad y horarios recomendados.</p>
       </section>
-    </div>
+    </section>
   </main>
 
-  <div id="app-footer"></div>
-
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="/ecolmia-web/js/guide.js"></script>
+  <footer id="site-footer"></footer>
+  <script src="js/guide.js"></script>
 </body>
 </html>
